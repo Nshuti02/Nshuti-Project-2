@@ -1,0 +1,33 @@
+.photo{
+    position: sticky;
+    top: 40%;
+    height: 120;
+    padding: 5%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(241, 232, 232);
+    line-height: 20px;
+    margin-left: 5%;
+    margin-right: 15%;
+}
+.heads{
+    position: relative;
+    left: 20px;
+    font-weight: 800px;
+    text-transform: uppercase;
+    margin-left: 2%;
+}
+.words{
+    position: relative;
+    left: 10px; 
+    margin-right: 5%;
+    margin-left: 3%;
+    text-align: justify;
+}
+.picture{
+    background: repeating-linear-gradient(green, blue);
+}
+   
